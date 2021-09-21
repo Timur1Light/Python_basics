@@ -7,7 +7,7 @@ print(lst)
 print("\nОклад меньше 20000 у сотрудников: ")
 summ = 0
 for i in range(1, len(lst), 2):
-    a = int(lst[i])
+    a = float(lst[i])
     summ += a
     count = len(lst) / 2
     if a <= 20000:
